@@ -16,7 +16,7 @@
   --clr-primary-4: #dee2e6;
   --clr-primary-8: #9EA788;
   --clr-primary-9:  #CDBE8C;
-  --clr-primary-10: #fff800 ;
+  --clr-primary-10: #FCDC14 ;
     --clr-primary-11: #3d2616;
   
   --clr-white: #fff;
@@ -144,7 +144,7 @@ p {
   text-transform:uppercase;
   font-size: 1.5rem;
   font-weight: 800;
-  color: var(--clr-primary-3);
+  color: var(--clr-primary-8);
 }
 .underline{
   width: 10rem;
@@ -211,7 +211,7 @@ p {
   display: block;
   margin: 1rem;
   text-transform: capitalize;
-  color: var(--clr-primary-2);
+  color: var(--clr-black);
   font-size: 1.5rem;
   letter-spacing: var(--spacing);
   transition: var(--transition);
@@ -244,7 +244,7 @@ p {
     gap: 1rem;
   }
   .nav-item{
-    color: var(--clr-primary-2);
+    color: var(--clr-black);
     text-transform: capitalize;
     transition: var(--transition);
     font-size: 1.5rem;
@@ -307,14 +307,14 @@ p {
 
 .hero-title{
 font-size: 2rem;
-color: var(--clr-primary-3);
+color: var(--clr-black);
 }
 .hero-container article{
   max-width: 40rem;
 }
 .hero-description{
   font-size: 1.5rem;
-  color: var(--clr-primary-2);
+  color: var(--clr-black);
 }
 .hero-links-icons .hero-icon {
   margin: 0.5rem;
@@ -465,6 +465,8 @@ box-shadow: var(--dark-shadow);
 }
 .project-img{
   width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
 }
 @media (min-width:768px) {
   .project-container{

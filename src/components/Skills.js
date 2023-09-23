@@ -13,9 +13,15 @@ const Skills = () => {
           const { id, title, text, icon } = link
           return (
             <li key={id} className='skill-item'>
-              <span className='skills-icon'>{icon}</span>
-              <h3 className='skills-title'>{title}</h3>
-              <p className='skills-description'>{text}</p>
+              <span data-aos='fade-up' className='skills-icon'>
+                {icon}
+              </span>
+              <h3 data-aos='fade-down' className='skills-title'>
+                {title}
+              </h3>
+              <p data-aos='fade-right' className='skills-description'>
+                {text}
+              </p>
             </li>
           )
         })}
