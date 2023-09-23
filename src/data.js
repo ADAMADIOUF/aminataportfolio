@@ -75,7 +75,7 @@ export const skillsData = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://adamadioufportfolio.com/static/media/f1.b435b9d8f6abb889f89b.png',
+    img: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
     url: 'https://landingpagehtmlcssjs.netlify.app/',
     github: 'https://github.com/ADAMADIOUF/landingpage',
     title: 'Welcome To Our Hotel',
@@ -83,16 +83,15 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://adamadioufportfolio.com/static/media/f3.0ea64472bb236a84fdb2.png',
+    img: 'https://media.istockphoto.com/id/1494935138/photo/organic-cosmetics-with-ingredients.webp?b=1&s=170667a&w=0&k=20&c=093MogHUdEKEgX_d7X6BU9FBG4WoYJr4_3MzKMti008=',
     url: 'https://worldbusinesssenegal.com/',
     github: 'https://github.com/ADAMADIOUF/zanaparfumerie',
-    title: `zanaparfumerie.com
-ZANA PARFUMERIE`,
+    title: `ZANA PARFUMERIE`,
     text: `Discover unique fragrances for personal expression. Explore our diverse collection, from classics to niche scents, with detailed descriptions and reviews. Powered by React.js, CSS, and Context API for secure shopping. Immerse yourself in the world of perfumes with Airtable backend support.`,
   },
   {
     id: nanoid(),
-    img: 'https://adamadioufportfolio.com/static/media/f4.26706b32ec860a20e453.png',
+    img: 'https://images.unsplash.com/photo-1596742578443-7682ef5251cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHBob25lJTIwc3RvcmUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
     url: 'https://worldbusinesssenegal.com/',
     github: 'https://github.com/ADAMADIOUF/phonestore',
     title: 'Phone Store',
@@ -100,7 +99,7 @@ ZANA PARFUMERIE`,
   },
   {
     id: nanoid(),
-    img: 'https://adamadioufportfolio.com/static/media/f5.1dd230da8ee717e8c89e.png',
+    img: 'https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGNsb3RoaW5nJTIwc3RvcmUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
     url: 'https://awagueyecouture.com/',
     github: 'https://github.com/ADAMADIOUF/cheikhmbaye',
     title: 'Clothing Store',
