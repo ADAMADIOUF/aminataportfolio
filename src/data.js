@@ -84,7 +84,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://media.istockphoto.com/id/1494935138/photo/organic-cosmetics-with-ingredients.webp?b=1&s=170667a&w=0&k=20&c=093MogHUdEKEgX_d7X6BU9FBG4WoYJr4_3MzKMti008=',
-    url: 'https://worldbusinesssenegal.com/',
+    url: 'https://zanaparfumerie.com/',
     github: 'https://github.com/ADAMADIOUF/zanaparfumerie',
     title: `ZANA PARFUMERIE`,
     text: `Discover unique fragrances for personal expression. Explore our diverse collection, from classics to niche scents, with detailed descriptions and reviews. Powered by React.js, CSS, and Context API for secure shopping. Immerse yourself in the world of perfumes with Airtable backend support.`,
