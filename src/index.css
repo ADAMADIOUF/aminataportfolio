@@ -67,7 +67,7 @@ body {
   background: var(--backgroundColor);
   color: var(--textColor);
   transition: var(--darkModeTransition);
-  font-family: var(--primary-font11);
+  font-family: var(--primary-font1);
   line-height: 1.5;
   font-size: 0.875rem;
 }

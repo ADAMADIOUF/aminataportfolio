@@ -83,6 +83,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: 'https://media.istockphoto.com/id/1331771661/photo/new-car-owner-sitting-in-car-and-taking-keys-from-seller.webp?b=1&s=170667a&w=0&k=20&c=UNw3tfGPZ45NszqLFCv_ciynEv1pxZZqjfgug0ZNe1A=',
+    url: 'https://senegalautomarket.com/',
+    github: 'https://github.com/ADAMADIOUF/senegalautomarketfinal',
+    title: 'Auto Rental & Sales Hub',
+    text: `Whether for business or leisure, we offer a home away from home experience in the world of automobiles. With a stunning selection, top-notch features, and exceptional service, your journey will be unforgettable. Explore our website for vehicle details, options, and special deals. We can't wait to be your automotive destination. React js, CSS, Airtable,ReduxToolkit,Auth0.`,
+  },
+  {
+    id: nanoid(),
     img: 'https://media.istockphoto.com/id/1494935138/photo/organic-cosmetics-with-ingredients.webp?b=1&s=170667a&w=0&k=20&c=093MogHUdEKEgX_d7X6BU9FBG4WoYJr4_3MzKMti008=',
     url: 'https://zanaparfumerie.com/',
     github: 'https://github.com/ADAMADIOUF/zanaparfumerie',
