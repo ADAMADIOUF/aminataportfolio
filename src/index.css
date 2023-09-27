@@ -406,8 +406,6 @@ color: var(--clr-black);
 }
 .skills-description{
   font-size: 1rem;
-  font-weight: 200;
- 
 }
 @media (min-width:768px) {
   .skills-container{
@@ -418,7 +416,6 @@ color: var(--clr-black);
 }
 @media (min-width:992px) {
   .skills-container{
-    
     grid-template-columns: repeat(3,1fr);
     
   }
