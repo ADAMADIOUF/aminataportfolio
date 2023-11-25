@@ -76,7 +76,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://media.discordapp.net/attachments/1168684192784208024/1175063179378823248/adama5863_auto_repair_image_6d692487-27c1-47e7-b5b6-84ab0a088d61.png?ex=6569dddd&is=655768dd&hm=6e56c3d7b90931c1c5ef804f53e35e1c5223440db89fb154e5aae571949a1889&=&width=1060&height=1060',
-    url: 'https:chads-auto.com/',
+    url: 'https://chads-auto.com/',
     github: 'https://github.com/ADAMADIOUF/automart',
     title: 'chads auto repair',
     text: `Quality Servicing Auto Repair is your go-to destination for reliable and efficient car maintenance and repair services. Our team of certified mechanics is dedicated to ensuring your vehicle runs smoothly and safely on the road React js, CSS, Airtable for backend,nodemailer,ReduxToolkit`,
