@@ -10,6 +10,7 @@ export const links = [
   { id: nanoid(), href: 'skills', text: 'skills' },
   { id: nanoid(), href: 'projects', text: 'projects' },
   { id: nanoid(), href: 'contact', text: 'contact' },
+  { id: nanoid(), href: 'resume', text: 'resume' },
 ]
 
 
@@ -75,19 +76,17 @@ export const skillsData = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://media.discordapp.net/attachments/1168684192784208024/1175063179378823248/adama5863_auto_repair_image_6d692487-27c1-47e7-b5b6-84ab0a088d61.png?ex=6569dddd&is=655768dd&hm=6e56c3d7b90931c1c5ef804f53e35e1c5223440db89fb154e5aae571949a1889&=&width=1060&height=1060',
+    img: 'images/chad.png',
     url: 'https://chads-auto.com/',
     github: 'https://github.com/ADAMADIOUF/automart',
     title: 'chads auto repair',
-    text: `Quality Servicing Auto Repair is your go-to destination for reliable and efficient car maintenance and repair services. Our team of certified mechanics is dedicated to ensuring your vehicle runs smoothly and safely on the road React js, CSS, Airtable for backend,nodemailer,ReduxToolkit`,
   },
   {
     id: nanoid(),
-    img: 'https://media.discordapp.net/attachments/1168684192784208024/1175065822222368768/adama5863_auto_rental_ab280399-7a0f-487d-b628-bea870b04ae3.png?ex=6569e053&is=65576b53&hm=af43f051930f56e64401879590b729bda6d66d49eab6ccb9a439b66848353114&=&width=1060&height=1060',
-    url: 'https://senegalautomarket.com/',
-    github: 'https://github.com/ADAMADIOUF/senegalautomarketfinal',
-    title: 'Auto Rental & Sales Hub',
-    text: `Whether for business or leisure, we offer a home away from home experience in the world of automobiles. With a stunning selection, top-notch features, and exceptional service, your journey will be unforgettable. Explore our website for vehicle details, options, and special deals. We can't wait to be your automotive destination. React js, CSS, Airtable,ReduxToolkit,Auth0.`,
+    img: 'images/mimexico.png',
+    url: 'https://mimexicominot.netlify.app/',
+    github: 'https://github.com/ADAMADIOUF/mimexicominot',
+    title: 'Mi Mexico Minot Restaurant',
   },
   {
     id: nanoid(),
@@ -99,26 +98,9 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://media.discordapp.net/attachments/1168684192784208024/1175067158426963990/adama5863_phone_store_53288434-80fe-47e0-9234-24f46d710f1e.png?ex=6569e192&is=65576c92&hm=fae249a78b0f54d8748d760e5aa5b5aee7d28886f0e1dbc938d9ce4046618513&=&width=1060&height=1060',
-    url: 'https://worldbusinesssenegal.com/',
-    github: 'https://github.com/ADAMADIOUF/phonestore',
-    title: 'Phone Store',
-    text: `World Business simplifies phone shopping. Order via WhatsApp for swift delivery. Explore the latest smartphones, get personalized support, and enjoy speedy delivery. Our platform is powered by React.js, CSS, Redux, and runs on Airtable and Serverless Netlify.`,
-  },
-  {
-    id: nanoid(),
-    img: 'https://media.discordapp.net/attachments/1168684192784208024/1175068136857403504/adama5863_clothing_store_bee961a2-5943-4d97-9792-f13a387661af.png?ex=6569e27b&is=65576d7b&hm=4b723a739510e1a0d4024f3fbc8eb7a91bb5cb7ac8bf6000ba32003dcd547c94&=&width=1060&height=1060',
-    url: 'https://awagueyecouture.com/',
-    github: 'https://github.com/ADAMADIOUF/cheikhmbaye',
-    title: 'Clothing Store',
-    text: `Explore stylish apparel at our online store with a seamless shopping experience. Find high-quality clothing from casual to formal wear, backed by excellent service. Stay on-trend with us—built with React.js, CSS, Redux, and powered by Airtable and Serverless Netlify.`,
-  },
-  {
-    id: nanoid(),
-    img: 'https://media.discordapp.net/attachments/1168684192784208024/1175070376410218656/adama5863_bour_sine_king_of_diakhoa_senegal_54651ec4-22cb-4a04-9625-6ef61be442c7.png?ex=6569e491&is=65576f91&hm=bd6790f1f00b05fc443e9fc18e8100e0042c75e7f43f0e88961f1a96a6ff123d&=&width=1060&height=1060',
-    url: 'https://diakhaosine.com/',
-    github: 'https://github.com/ADAMADIOUF/boursine',
-    title: 'history of Bour Sine',
-    text: `Discover the rich history of Bour Sine, the legendary king of Senegal, on our informative website. Dive into the fascinating heritage, stories, and legacy of this iconic monarch who shaped the region. Explore the history of Senegal through the life and times of Bour Sine, a true historical icon. Stay on-trend with us—built with React.js, CSS, Redux, and powered by Airtable and Serverless Netlify.`,
+    img: 'images/mshoes.png',
+    url: 'https://mshoessenegal.com/',
+    github: 'https://github.com/ADAMADIOUF/m-shoes',
+    title: 'Shoes Store',
   },
 ]

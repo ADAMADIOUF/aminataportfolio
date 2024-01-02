@@ -11,14 +11,15 @@ import Home from './components/Home'
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <CustomCursor/>
-     <Home/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <CustomCursor />
+      <Home />
+
+      <Projects />
+      <Skills />
+      <About />
+      <Contact/> 
+       <Footer/> 
     </>
   )
 }

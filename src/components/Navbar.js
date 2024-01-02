@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { links } from '../data'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from '../assets/logo.png'
-import ThemeToggle from './ThemeToggle'
-
+import logo from '../assets/f2logo.png'
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false)
 
@@ -16,8 +14,8 @@ const Navbar = () => {
     setMenuOpen(false)
   }
 
-  // Calculate the offset based on the height of your navbar
-  const navbarHeight = 80 // Update this value according to your navbar's height
+  
+  const navbarHeight = 80 
 
   return (
     <nav className='navbar'>
@@ -36,7 +34,7 @@ const Navbar = () => {
             <img src={logo} alt='' />
           </Link>
         </span>
-        <ThemeToggle />
+       
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           {links.map((link) => {
             const { id, href, text } = link
@@ -53,10 +51,13 @@ const Navbar = () => {
                 >
                   {text}
                 </Link>
+                
               </li>
+               
             )
           })}
         </ul>
+       
       </div>
     </nav>
   )

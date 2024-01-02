@@ -13,13 +13,13 @@ const Skills = () => {
           const { id, title, text, icon } = link
           return (
             <li key={id} className='skill-item'>
-              <span data-aos='fade-up' className='skills-icon'>
+              <span className='skills-icon'>
                 {icon}
               </span>
-              <h3 data-aos='fade-down' className='skills-title'>
+              <h3  className='skills-title'>
                 {title}
               </h3>
-              <p data-aos='fade-right' className='skills-description'>
+              <p  className='skills-description'>
                 {text}
               </p>
             </li>

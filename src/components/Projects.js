@@ -14,10 +14,10 @@ const Projects = () => {
           const { id, title, text, img, github, url } = link
           return (
             <li key={id} className='project-details'>
-              <img src={img} alt='' className='project-img' />
+              <img src={img} alt='' className='project-img rotate-left' />
               <div className='project-info'>
                 <h3 className='projects-title'>{title}</h3>
-                <p className='projects-description'>{text}</p>
+                
                 <div className='project-icon'>
                   <a href={url} target='_blank' rel='noopener noreferrer'>
                     <TbWorldWww className='projects-icon' />

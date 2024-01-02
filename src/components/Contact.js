@@ -51,115 +51,68 @@ const Contact = () => {
   }, [])
   return (
     <div className='contact' id='contact'>
-      <div className='contact-section section-center'>
+      <div className=' section-center'>
         <div className='title'>
           <h3>Reach for Collaboration</h3>
         </div>
-        <div className='contact-f-container'>
-          <article>
+        <div className='contact-container'>
+          <article className='form-content'>
+            <form onSubmit={handleSubmit} className='form'>
+              <div className='form-group'>
+                <input
+                  placeholder='Full Name...'
+                  type='text'
+                  id='name'
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
+              </div>
+              <div className='form-group'>
+                <input
+                  type='email'
+                  placeholder='Email Address...'
+                  id='email'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+              <div className='form-group'>
+                <textarea
+                  id='message'
+                  placeholder='What assistance can I provide you with?
+'
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                ></textarea>
+              </div>
+              <button type='submit' className='btn btn-contact'>Send</button>
+            </form>
+            {showSuccess && (
+              <div
+                className='success-message'
+                style={{
+                  backgroundColor: '#d4edda',
+                  color: '#155724',
+                  padding: '5px',
+                  margin: '5px 0',
+                  borderRadius: '5px',
+                }}
+              >
+                <p>Your message has been sent successfully!</p>
+              </div>
+            )}
+          </article>
+          <article className='form-details'>
+            <h3>Let's brainstorm and create something extraordinary</h3>
             <p>
-              "I'm interested in freelance opportunities, especially ambitious
-              or large projects. However, if you have any other requests or
-              questions, please don't hesitate to contact me. 😍"
+              If you're keen on partnering up, don't hesitate to reach out to me
+              at adamadiof@gmail.com. I'm enthusiastic about hearing your
+              thoughts and beginning our collaboration!
             </p>
           </article>
-          <article>
-            <img src={contact} alt='' />
-          </article>
-        </div>
-        <form onSubmit={handleSubmit} className='form section-center'>
-          <div className='form-group'>
-            <label htmlFor='name'>Name:</label>
-            <input
-              type='text'
-              id='name'
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          <div className='form-group'>
-            <label htmlFor='email'>Email:</label>
-            <input
-              type='email'
-              id='email'
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <div className='form-group'>
-            <label htmlFor='message'>Message:</label>
-            <textarea
-              id='message'
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              required
-            ></textarea>
-          </div>
-          <button type='submit'>Send</button>
-        </form>
-
-        {showSuccess && (
-          <div
-            className='success-message'
-            style={{
-              backgroundColor: '#d4edda',
-              color: '#155724',
-              padding: '5px',
-              margin: '5px 0',
-              borderRadius: '5px',
-            }}
-          >
-            <p>Your message has been sent successfully!</p>
-          </div>
-        )}
-
-        <div className='contact-lins'>
-          <div>
-            <a
-              href='https://github.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <span>
-                <AiFillGithub />
-              </span>
-            </a>
-          </div>
-          <div>
-            <a
-              href='https://www.linkedin.com/feed/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <span>
-                <AiFillLinkedin />
-              </span>
-            </a>
-          </div>
-          <div>
-            <a
-              href='https://dev.to/adamadiouf'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <span>
-                <BsBookHalf />
-              </span>
-            </a>
-          </div>
-          <div>
-            <a
-              href='https://www.facebook.com/home.php'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <span>
-                <AiFillFacebook />
-              </span>
-            </a>
-          </div>
         </div>
       </div>
     </div>

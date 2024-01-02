@@ -8,59 +8,28 @@ const About = () => {
         <hr />
       </div>
       <div className='about-container'>
-        <article className='about-img' data-aos='fade-up'>
+        <article className='about-img'>
           <img src={about} alt='' />
-          <div className='about-creative'>
-            <h6>hard-working</h6>
-            <h6>creative</h6>
-            <h6>Passionate</h6>
-            <h6>Motivated</h6>
-            <h6>Reliable</h6>
-            <h6>Productive</h6>
-          </div>
-          <p data-aos='fade-right'>
-            I started studying engineering in March 2020. Since then, I have
-            been learning a lot of things every day to further my skills. I like
-            to learn and try new things. I am a big fan of learning to program
-            while making productions. Furthermore, I am proud to say that I
-            always work hard and do my best to live up to the expectations
-            people have for me.😎
-          </p>
-          <hr />
-          <p data-aos='fade-up'>
-            I am a <span> creative developer </span>
-            who has a great passion for learning engineering.😎 currently, I'm a
-            freelancer.
-          </p>
         </article>
         <article className='about-me-content'>
-          <p data-aos='fade-right'>
-            Hi, I'm <span className='highlight'>Adama Diouf</span>, a passionate
-            front-end developer with <span className='highlight'>2</span> years
-            of experience. I specialize in building user-friendly and responsive
-            web applications using modern web technologies.
+          <h3>Develop, Implement, Reliable & Innovate.</h3>
+          <p>
+            I'm Adama Diouf, a dedicated front-end developer with 3 years of
+            experience, specializing in crafting responsive and user-friendly
+            web applications. My journey into development began with a passion
+            for creating visually appealing websites, leading me to constantly
+            refine my skills and stay updated on industry trends. Proficient in
+            HTML, CSS, JavaScript, and frameworks like React, I take pleasure in
+            turning concepts into reality with clean and efficient code.
           </p>
-          <hr />
-          <p data-aos='fade-up'>
-            My journey as a developer began when I discovered my fascination for
-            crafting interactive and visually appealing websites. Since then, I
-            have been dedicated to honing my skills and staying up to date with
-            the latest industry trends and best practices.
-          </p>
-          <hr />
-          <p data-aos='fade-right'>
-            As a front-end developer, I enjoy transforming ideas into reality
-            through clean and efficient code. I have hands-on experience with
-            HTML, CSS, JavaScript, and frameworks like React. I'm also
-            proficient in utilizing libraries, version control systems, and task
-            runners to streamline the development process.
-          </p>
-          <hr />
-          <p data-aos='fade-up'>
-            Collaborating with cross-functional teams, I have effectively
-            contributed to the successful delivery of numerous projects. I am
-            constantly seeking new challenges that allow me to expand my skills
-            and create exceptional user experiences.
+          <p>
+            Having played a pivotal role in successful project deliveries
+            through collaboration with cross-functional teams, I thrive on
+            creating exceptional user experiences. Commencing my engineering
+            studies in March 2020, I pursue continuous learning to enhance my
+            abilities. Embracing the philosophy of learning by doing, I
+            consistently work hard to exceed expectations. 😎 As a creative
+            developer passionate about engineering.
           </p>
         </article>
       </div>
