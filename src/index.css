@@ -419,10 +419,10 @@ height:400px;
   font-size: 30px;
 }
 .projects-title{
-  height: 2.5em; 
+  /* height: 2.5em; 
   overflow: hidden; 
   text-overflow: ellipsis; 
-  white-space: nowrap; 
+  white-space: nowrap;  */
   font-family: Inter;
 font-size: 12.197px;
 font-style: normal;

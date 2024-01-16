@@ -76,6 +76,14 @@ export const skillsData = [
 export const projects = [
   {
     id: nanoid(),
+    img: 'images/echosphere.png',
+    url: 'https://echosphere-wac0.onrender.com',
+    github: 'https://github.com/ADAMADIOUF/EchoSphere',
+    title:
+      'EchoSphere Blog Social Media App for testing use eamil:test@gmail.com password:test123',
+  },
+  {
+    id: nanoid(),
     img: 'images/chad.png',
     url: 'https://chads-auto.com/',
     github: 'https://github.com/ADAMADIOUF/automart',
