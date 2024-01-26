@@ -76,6 +76,13 @@ export const skillsData = [
 export const projects = [
   {
     id: nanoid(),
+    img: 'images/mshoes.png',
+    url: 'https://mshoessenegal.com/',
+    github: 'https://github.com/ADAMADIOUF/m-shoes',
+    title: 'Shoes Store',
+  },
+  {
+    id: nanoid(),
     img: 'images/echosphere.png',
     url: 'https://echosphere-wac0.onrender.com',
     github: 'https://github.com/ADAMADIOUF/EchoSphere',
@@ -102,20 +109,5 @@ export const projects = [
     url: 'https://mimexicominot.netlify.app/',
     github: 'https://github.com/ADAMADIOUF/mimexicominot',
     title: 'Mi Mexico Minot Restaurant',
-  },
-  {
-    id: nanoid(),
-    img: 'https://media.discordapp.net/attachments/1168684192784208024/1175066466308063242/adama5863_zana_parfumerie_a0494928-aa84-4cdb-ad29-b59237005bfc.png?ex=6569e0ed&is=65576bed&hm=26ef2d34e8f56a51b23c1762aaf5cec0b8b9150f1c5e06e3b2798cfb1fd0b68b&=&width=1060&height=1060',
-    url: 'https://zanaparfumerie.com/',
-    github: 'https://github.com/ADAMADIOUF/zanaparfumerie',
-    title: `ZANA PARFUMERIE`,
-    text: `Discover unique fragrances for personal expression. Explore our diverse collection, from classics to niche scents, with detailed descriptions and reviews. Powered by React.js, CSS, and Context API for secure shopping. Immerse yourself in the world of perfumes with Airtable backend support.`,
-  },
-  {
-    id: nanoid(),
-    img: 'images/mshoes.png',
-    url: 'https://mshoessenegal.com/',
-    github: 'https://github.com/ADAMADIOUF/m-shoes',
-    title: 'Shoes Store',
   },
 ]
