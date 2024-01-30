@@ -99,7 +99,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'images/oustazndir.png',
-    url: 'https://apprendrelecoran.netlify.app',
+    url: 'https://apprendre-lecoran.com',
     github: 'https://github.com/ADAMADIOUF/oustazndir',
     title: 'Nurul quran e-learning',
   },
