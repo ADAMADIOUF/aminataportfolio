@@ -99,7 +99,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'images/oustazndir.png',
-    url: 'https://apprendre-lecoran.com',
+    url: 'https://apprendre-lecoran.com/',
     github: 'https://github.com/ADAMADIOUF/oustazndir',
     title: 'Nurul quran e-learning',
   },
