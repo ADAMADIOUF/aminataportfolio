@@ -110,4 +110,11 @@ export const projects = [
     github: 'https://github.com/ADAMADIOUF/mimexicominot',
     title: 'Mi Mexico Minot Restaurant',
   },
+  {
+    id: nanoid(),
+    img: 'images/muhamed.png',
+    url: 'https://muhammedabdulsalam.com/',
+    github: 'https://github.com/ADAMADIOUF/muhamed',
+    title: 'Portfolio Web Design',
+  },
 ]
