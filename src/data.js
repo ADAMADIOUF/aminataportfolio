@@ -76,6 +76,13 @@ export const skillsData = [
 export const projects = [
   {
     id: nanoid(),
+    img: 'images/house.png',
+    url: 'https://www.homefusion.house/',
+    github: 'https://github.com/ADAMADIOUF/homefusion',
+    title: 'Home Fusion House ',
+  },
+  {
+    id: nanoid(),
     img: 'images/mshoes.png',
     url: 'https://mshoessenegal.com/',
     github: 'https://github.com/ADAMADIOUF/m-shoes',
