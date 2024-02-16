@@ -80,6 +80,7 @@ export const projects = [
     url: 'https://www.homefusion.house/',
     github: 'https://github.com/ADAMADIOUF/homefusion',
     title: 'Home Fusion House ',
+    skills: 'React js,Redux,Node js,Express,MongoDB,NodeGeocoder, nodemailer',
   },
   {
     id: nanoid(),
@@ -87,6 +88,7 @@ export const projects = [
     url: 'https://mshoessenegal.com/',
     github: 'https://github.com/ADAMADIOUF/m-shoes',
     title: 'Shoes Store',
+    skills: 'React js,Redux,Node js,Airtable, nodemailer',
   },
   {
     id: nanoid(),
@@ -94,7 +96,8 @@ export const projects = [
     url: 'https://echosphere-wac0.onrender.com',
     github: 'https://github.com/ADAMADIOUF/EchoSphere',
     title:
-      'EchoSphere Blog Social Media App for testing use eamil:test@gmail.com password:test123',
+      'EchoSphere Blog  ',
+    skills: 'React js,Redux,Node js,Express,MongoDB, nodemailer',
   },
   {
     id: nanoid(),
@@ -102,6 +105,7 @@ export const projects = [
     url: 'https://chads-auto.com/',
     github: 'https://github.com/ADAMADIOUF/automart',
     title: 'chads auto repair',
+    skills: 'React js,Redux,Node js, Airtable, nodemailer',
   },
   {
     id: nanoid(),
@@ -109,6 +113,7 @@ export const projects = [
     url: 'https://apprendre-lecoran.com/',
     github: 'https://github.com/ADAMADIOUF/oustazndir',
     title: 'Nurul quran e-learning',
+    skills: 'React js,Redux,Node js, Airtable, nodemailer',
   },
   {
     id: nanoid(),
@@ -116,6 +121,7 @@ export const projects = [
     url: 'https://mimexicominot.netlify.app/',
     github: 'https://github.com/ADAMADIOUF/mimexicominot',
     title: 'Mi Mexico Minot Restaurant',
+    skills: 'React js,Redux,Node js, Airtable, nodemailer',
   },
   {
     id: nanoid(),
@@ -123,5 +129,6 @@ export const projects = [
     url: 'https://muhammedabdulsalam.com/',
     github: 'https://github.com/ADAMADIOUF/muhamed',
     title: 'Portfolio Web Design',
+    skills: 'React js,Redux,Node js, Airtable, nodemailer',
   },
 ]
