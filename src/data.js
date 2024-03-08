@@ -76,6 +76,14 @@ export const skillsData = [
 export const projects = [
   {
     id: nanoid(),
+    img: 'images/amina.png',
+    url: 'https://www.aminashop.online/',
+    github: 'https://github.com/ADAMADIOUF/aminashop',
+    title: 'Amina Shop Ecommerce ',
+    skills: 'React js,Redux,Node js,Express,MongoDB,NodeGeocoder, nodemailer',
+  },
+  {
+    id: nanoid(),
     img: 'images/house.png',
     url: 'https://www.homefusion.house/',
     github: 'https://github.com/ADAMADIOUF/homefusion',
@@ -95,8 +103,7 @@ export const projects = [
     img: 'images/echosphere.png',
     url: 'https://echosphere-wac0.onrender.com',
     github: 'https://github.com/ADAMADIOUF/EchoSphere',
-    title:
-      'EchoSphere Blog  ',
+    title: 'EchoSphere Blog  ',
     skills: 'React js,Redux,Node js,Express,MongoDB, nodemailer',
   },
   {
