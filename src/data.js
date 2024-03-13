@@ -79,8 +79,8 @@ export const projects = [
     img: 'images/amina.png',
     url: 'https://www.aminashop.online/',
     github: 'https://github.com/ADAMADIOUF/aminashop',
-    title: 'Amina Shop Ecommerce ',
-    skills: 'React js,Redux,Node js,Express,MongoDB,NodeGeocoder, nodemailer',
+    title: 'Amina Shop  ',
+    skills: 'React js,Redux,Node js,Express,MongoDB, nodemailer',
   },
   {
     id: nanoid(),
