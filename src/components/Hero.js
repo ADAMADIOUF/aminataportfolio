@@ -194,7 +194,7 @@ const Hero = () => {
               </defs>
             </svg>
           </span>
-          <h3>erformance Optimization</h3>
+          <h3>performance optimization</h3>
           <p>
             Provide website optimization services to clients looking to improve
             the speed and performance of their website.
