@@ -22,12 +22,17 @@ const Hero = () => {
             </h3>
           </div>
           <p className='hero-description'>
-            Hello, I'm Adama Diouf , a skilled front-end developer with a
-            passion for crafting exceptional digital experiences. With a strong
-            commitment to creating innovative and user-friendly web
-            applications, I bring a unique blend of creativity and technical
-            expertise to every project I undertake. Welcome to my digital
-            portfolio, where I showcase my work and journey as a developer.
+            Welcome to the digital realm of Adama Diouf, where innovation meets
+            excellence in front-end development. With an unwavering commitment
+            to crafting immersive digital experiences, I embark on a journey
+            fueled by creativity and technical prowess. As a seasoned front-end
+            developer, I specialize in weaving together captivating web
+            applications that resonate with users on a profound level. Join me
+            as I invite you to explore my portfolio, a testament to my
+            dedication and passion for pushing the boundaries of digital
+            innovation. Step into a world where every pixel tells a story, and
+            every click unlocks a new realm of possibility. Welcome, and let's
+            embark on this transformative journey together.
           </p>
           <Link
             to='contact'
