@@ -84,6 +84,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: 'images/2emain.png',
+    url: 'https://2em-main.com/',
+   
+    title: '2Em Main Shop  ',
+    skills: 'Wordpress, elementor, Woocommerce',
+  },
+  {
+    id: nanoid(),
     img: 'images/house.png',
     url: 'https://www.homefusion.house/',
     github: 'https://github.com/ADAMADIOUF/homefusion',
